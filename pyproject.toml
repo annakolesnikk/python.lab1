@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools>=70"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "employee-manager"
+version = "0.1.0"
+description = "Employee management laboratory project"
+requires-python = ">=3.11"
+
+[project.scripts]
+employee-manager = "employee_manager.main:main"
